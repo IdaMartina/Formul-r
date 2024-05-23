@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+.myForm {
+  background-color: #f4f4f4;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  padding-bottom: 50px;
+}
+
+.header1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 24px;
+  align-self: self-start;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.inputName {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+}
+
+.names {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.checkboxcontainer {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.checkbox {
+  align-self: left;
+}
+
+.btn {
+  font-family: "montserrat", sans-serif;
+  margin-top: 20px;
+  align-self: left;
+  height: 40px;
+  width: 400px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
